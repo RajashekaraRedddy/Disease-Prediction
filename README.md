@@ -9,46 +9,6 @@ A web application that predicts diseases based on user-reported symptoms using m
 
 ![Demo Screenshot](static/screenshot.png) <!-- Add actual screenshot path -->
 
-## Features ✨
-
-- **Multi-symptom selection** from comprehensive list
-- **Instant disease prediction** using Random Forest algorithm
-- **Personalized precaution recommendations**
-- **User authentication system** (register/login)
-- **Responsive design** works on all devices
-
-## Installation 🛠️
-
-### Prerequisites
-- Python 3.8+
-- pip
-
-### Setup
-```bash
-# Clone repository
-git clone https://github.com/RajashekaraRedddy/Disease-Prediction.git
-cd Disease-Prediction
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run application
-python app.py
-
-
-
-
-
-# Disease-Prediction
-
-This project is a web application that predicts diseases based on user-selected symptoms. Users choose symptoms from a list and receive the most probable disease along with recommended precautions.
-
----
-
 ## Table of Contents
 
 - [Features](#features)
@@ -58,13 +18,13 @@ This project is a web application that predicts diseases based on user-selected 
 - [Usage](#usage)
 - [Contributing](#contributing)
 
----
+## Features ✨
 
-## Features
-
-- **Symptom Selection:** Users can browse and select multiple symptoms they are experiencing.
-- **Disease Prediction:** Uses a trained **Random Forest** machine learning model to predict the most likely disease.
-- **Precautionary Advice:** Displays a list of precautions related to the predicted disease.
+- **Multi-symptom selection** from comprehensive list
+- **Instant disease prediction** using Random Forest algorithm
+- **Personalized precaution recommendations**
+- **User authentication system** (register/login)
+- **Responsive design** works on all devices
 
 ---
 
@@ -99,6 +59,30 @@ Disease-Prediction/
 │ ├── disease_precautions.csv
 │ └── symptoms_diseases.csv
 └── README.md
+
+---
+
+## Installation 🛠️
+
+### Prerequisites
+- Python 3.8+
+- pip
+
+### Setup
+```bash
+# Clone repository
+git clone https://github.com/RajashekaraRedddy/Disease-Prediction.git
+cd Disease-Prediction
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run application
+python app.py
 
 ## Installation
 
