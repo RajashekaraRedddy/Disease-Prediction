@@ -80,6 +80,8 @@ python app.py
 - Click on the **"Submit"** button.
 - View the predicted disease along with a list of suggested precautions.
 
+---
+
 ## Contributing
 
 We welcome contributions! Follow these steps to contribute to the project:
