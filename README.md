@@ -102,6 +102,8 @@ python app.py
 ### 4. Open in browser
 - Visit http://localhost:5000 in your browser to use the application.
 
+---
+
 ## Usage
 
 - Open the application in your browser.
