@@ -35,19 +35,9 @@ This project is a web application that predicts diseases based on user-selected 
 
 ## Project Structure
 
-DiseasePredictionApp/
-│
-├── app.py # Flask backend application
-├── train_model.py # Model training script
-├── rf_model.pkl # Trained Random Forest model
-│
-├── dataset/
-│ ├── symptoms_diseases.csv # Symptoms and their corresponding diseases
-│ └── disease_precautions.csv # Precautions for each disease
-│
-├── static/
-│ └── styles.css # Stylesheet
-│
+Disease-Prediction/
+├── app.py
+├── requirements.txt
 ├── templates/
 │ ├── index.html
 │ ├── login.html
@@ -55,7 +45,14 @@ DiseasePredictionApp/
 │ ├── home.html
 │ ├── result.html
 │ └── disease_info.html
-│
+├── static/
+│ ├── styles.css
+│ └── script.js
+├── model/
+│ └── rf_model.pkl
+├── dataset/
+│ ├── disease_precautions.csv
+│ └── symptoms_diseases.csv
 └── README.md
 
 ## Installation
