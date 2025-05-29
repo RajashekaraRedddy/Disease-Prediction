@@ -87,17 +87,14 @@ python app.py
 ## Installation
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/RajashekaraRedddy/Disease-Prediction.git
-cd Disease-Prediction
+   git clone https://github.com/RajashekaraRedddy/Disease-Prediction.git
+   cd Disease-Prediction
 
 ### 2. Install Dependencies
-```bash
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 ### 3. Run the application
-```bash
-python app.py
+   python app.py
 
 ### 4. Open in browser
 - Visit http://localhost:5000 in your browser to use the application.
@@ -125,12 +122,10 @@ We welcome contributions! Follow these steps to contribute to the project:
    cd Disease-Prediction
 
 3. **Commit** your changes:
-   ```bash
-git commit -m "Add a new feature"
+   git commit -m "Add a new feature"
 
 4. Push to the branch:
-   ```bash
-git push origin feature-branch
+   git push origin feature-branch
 
 5. Open a **Pull Request** to the main repository.
 
